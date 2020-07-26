@@ -1,4 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+body {
+    font-family: "Ropa Sans", sans-serif;
+}
 .logo {
     width: 200px;
     height: auto;
 }
+.navbar {
+    height: 70px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 22px;
+}
+#myModal {
+    display: none;
+  }
+  
