@@ -16,4 +16,8 @@ body {
 #myModal {
     display: none;
   }
+
+#contato form {
+    width: 500px;
+}
   

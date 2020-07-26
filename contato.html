@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <link rel="icon" type="image/png" sizes="96x96" href="./resources/favicon-96x96.png">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/d249ae6abc.js" crossorigin="anonymous"></script>
+
+    <title>Conexão Games</title>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img class="logo" src="./resources/logo.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Início <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="galeria.html">Produtos</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Categorias
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Ação</a>
+                    <a class="dropdown-item" href="#">Aventura</a>
+                    <a class="dropdown-item" href="#">RPG</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+    <main class="mt-5 p-4">
+        <section>
+            <div>
+            <h2>Sobre</h2>
+            </div>
+        </section>
+        <section>
+            <h2>Equipe</h2>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <form class="text-center border border-light p-5" action="#!">
+                <p class="h4 mb-4">Contato</p>            
+                <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Nome">
+                <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+                <label>Assunto</label>
+                <select class="browser-default custom-select mb-4">
+                    <option value="" selected>Escolha uma opção</option>
+                    <option value="1">Elogio</option>
+                    <option value="2">Produto com defeito</option>
+                    <option value="3">Devolução</option>
+                    <option value="4">Troca</option>
+                </select>
+                <div class="form-group">
+                    <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+                </div>           
+                <div class="custom-control custom-checkbox mb-4">
+                    <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+                    <label class="custom-control-label" for="defaultContactFormCopy">Enviar uma cópia para o meu e-mail</label>
+                </div>
+                <button class="btn btn-info btn-block" type="submit"></button>            
+            </form>
+        </section>    
+    </main>
+</body>
+</html>
