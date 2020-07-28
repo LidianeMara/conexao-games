@@ -113,3 +113,36 @@ h1.banner-title {
     word-wrap: break-word;
     text-transform: uppercase;
 }
+
+/* Acessório nos titulos */
+.line {
+    position:relative;
+    text-align:center;
+    z-index: 5;
+}
+
+.line:after, .line:before{
+    content:"r";
+    width:50%;
+    height:2px;
+    background:#666;
+    position:absolute;
+    top:3vh;
+    color:#FFF;
+    text-align:center;
+    z-index: -1;
+    opacity: 26%;
+}
+
+.line:after {
+    right: 0;
+}
+
+.line:before {
+    left: 0;
+}
+
+.line span{
+    background: #fff;
+    padding: 0 10px;
+}
