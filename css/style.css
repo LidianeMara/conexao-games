@@ -144,3 +144,56 @@ h1.banner-title {
     background: #fff;
     padding: 0 10px;
 }
+
+/*Bandeirinhas*/
+
+.flag-item {
+    width: 50px;
+    height: 70px;
+    box-sizing: border-box;
+    padding: 5px;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-transform: uppercase;
+    clip-path: polygon(0 0, 100% 0%, 100% 60%, 50% 100%, 0 60%);
+    top: 0;
+    right: 10px;
+    font-weight: 600;
+}
+
+.list-group.list-group-flush li{
+    font-size: 20px;
+}
+.list-group.list-group-flush li strong{
+    font-size: 1.8rem;
+    color: #d00017;
+}
+
+.item-buy{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -90px;
+    text-align: center;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.item-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6;
+    background: #000000;
+    height: 100%;
+}
+
+.card-header{
+    position: relative;
+}
