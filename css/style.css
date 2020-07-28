@@ -154,7 +154,7 @@ h1.banner-title {
     padding: 5px;
     position: absolute;
     color: white;
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 0.2em;
     text-align: center;
     text-transform: uppercase;
@@ -196,4 +196,17 @@ h1.banner-title {
 
 .card-header{
     position: relative;
+    contain: content;
+    height: 200px;
+}
+
+.card-item{
+    height: 400px;
+}
+div.card-body{
+    height: 20px;
+}
+
+.list-group{
+    height: 130px;
 }

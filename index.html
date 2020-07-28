@@ -51,7 +51,7 @@
     <main class="inicio">
         <div class="container">
             <div class="modal fade" id="myModal" role="dialog" displayed="false" role="document">
-               <div class="modal-dialog">
+               <div class="modal-dialog ">
                 <div class="modal-content">
                     <div class="modal-header">
                       <h5 class="modal-title">Newsletter</h5>
@@ -86,30 +86,33 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
+                        <div class="item-overlay"></div>
                         <img src="./resources/carrousel-index/witcher3-banner.jpg" class="d-block w-100" alt="...">
                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Nome do Jogo</h2>
-                            <p>Por R$ xx</p>
+                            <h2>THE WITCHER 3: WILD HUNT</h2>
+                            <p>Por R$ 56,90</p>
                             <div class="col-12 d-flex justify-content-center">
                                 <a href="galeria.html" class="btn btn-success">Comprar</a>
                             </div>
                        </div>
                     </div>
                     <div class="carousel-item">
+                        <div class="item-overlay"></div>
                         <img src="./resources/carrousel-index/horizon-zero-dawn-banner.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h2>Nome do Jogo</h2>
-                            <p>Por R$ xx</p>
+                            <h2>HORIZON ZERO DAWN</h2>
+                            <p>Por R$ 200,00</p>
                             <div class="col-12 d-flex justify-content-center">
                                 <a href="galeria.html" class="btn btn-success">Comprar</a>
                             </div>
                        </div>
                     </div>
                     <div class="carousel-item">
+                        <div class="item-overlay"></div>
                         <img src="./resources/carrousel-index/little-witch-nobeta-banner.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h2>Nome do Jogo</h2>
-                            <p>Por R$ xx</p>
+                            <h2>LITTLE WITCH NOBETA</h2>
+                            <p>Por R$ 20,00</p>
                             <div class="col-12 d-flex justify-content-center">
                                 <a href="galeria.html" class="btn btn-success">Comprar</a>
                             </div>
@@ -131,40 +134,68 @@
                 <h2 class="text-white text-uppercase">Produtos mais vendidos</h2>
             </div>
             <div class="row px-4">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-12 p-0 px-3">
-                    <div class="card">
-                    <img src="./resources/carrousel-index/witcher3-banner.jpg" class="card-img-top w-100" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Nome do Jogo</h5>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><i class="fas fa-gamepad text-success"></i> PC</li>
-                        <li class="list-group-item"><i class="fas fa-money-bill text-success"></i> R$ XX,XX</li>
-                    </ul>
-                </div>
-
-            </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-12 p-0 px-3">
-                    <div class="card">
-                    <img src="./resources/carrousel-index/witcher3-banner.jpg" class="card-img-top w-100" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Nome do Jogo</h5>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><i class="fas fa-gamepad text-success"></i> PC</li>
-                        <li class="list-group-item"><i class="fas fa-money-bill text-success"></i> R$ XX,XX</li>
-                    </ul>
-                </div>
-            </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-12 p-0 px-3">
-                    <div class="card">
-                        <img src="./resources/carrousel-index/witcher3-banner.jpg" class="card-img-top w-100" alt="...">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 col-12 p-0 px-3 mb-3">
+                    <div class="card card-item border border-warning">
+                        <div class="card-header p-0">
+                            <div class="item-overlay"></div>
+                            <img src="./resources/gallery/witcher3-banner.jpg" class="card-img-top w-100" alt="...">
+                            <span class="flag-item bg-warning">30% off</span>
+                            <div class="item-buy d-flex justify-content-center align-content-center">
+                                <a href="#" class="btn text-white btn-info mx-1"><i class="fas fa-2x fa-info-circle"></i></a>
+                                <a href="#" class="btn text-white btn-success mx-1"><i class="fas fa-2x fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title">Nome do Jogo</h5>
+                            <h5 class="card-title font-weight-bold">THE WITCHER 3: WILD HUNT <i class="fab fa-windows text-info float-right"></i></h5>
+                        </div>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><i class="fas fa-gamepad text-info"></i> Aventura, ação, RPG</li>
+                            <li class="list-group-item"><i class="fas fa-money-bill text-info"></i> <s class="text-muted">R$ 79,90</s>
+                                <strong> R$ 56,90</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 col-12 p-0 px-3 mb-3">
+                    <div class="card card-item border border-success">
+                        <div class="card-header p-0">
+                            <div class="item-overlay"></div>
+                            <img src="./resources/gallery/paladins-wallpaper.jpg" class="card-img-top w-100" alt="...">
+                            <span class="flag-item bg-success">FREE</span>
+                            <div class="item-buy d-flex justify-content-center align-content-center">
+                                <a href="#" class="btn text-white btn-info mx-1"><i class="fas fa-2x fa-info-circle"></i></a>
+                                <a href="#" class="btn text-white btn-success mx-1"><i class="fas fa-2x fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">PALADINS <i class="fab fa-windows text-info float-right"></i></h5>
                         </div>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><i class="fas fa-gamepad text-success"></i> PC</li>
-                            <li class="list-group-item"><i class="fas fa-money-bill text-success"></i> R$ XX,XX</li>
+                            <li class="list-group-item"><i class="fas fa-gamepad text-info"></i> FPS, MOBA</li>
+                            <li class="list-group-item"><i class="fas fa-money-bill text-info"></i> Grátis para jogar
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 col-12 p-0 px-3 mb-3">
+                    <div class="card card-item border border-danger">
+                        <div class="card-header p-0">
+                            <div class="item-overlay"></div>
+                            <img src="./resources/gallery/cyberpunk2077-banner.jpg" class="card-img-top w-100" alt="...">
+                            <div class="item-buy d-flex justify-content-center align-content-center">
+                                <a href="#" class="btn text-white btn-info mx-1"><i class="fas fa-2x fa-info-circle"></i></a>
+                                <a href="#" class="btn text-white btn-success mx-1"><i class="fas fa-2x fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">CYBERPUNK 2077 <i class="fab fa-windows text-info float-right"></i></h5>
+                        </div>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><i class="fas fa-gamepad text-info"></i> Aventura, ação, Cyberpunk</li>
+                            <li class="list-group-item"><i class="fas fa-money-bill text-info"></i> R$ 199,90 <small class="text-muted">Pré-compra</small>
+                            </li>
                         </ul>
                     </div>
                 </div>
