@@ -106,6 +106,9 @@ body {
 .btn-success {
     font-size: 24px;
 }
+.fa-shopping-cart {
+    font-size: 35px;
+}
 /*  CONTATO   */
 #contato {
     display: flex;
