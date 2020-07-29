@@ -83,6 +83,26 @@ body {
 .section-title span {
     margin: 0 15px;
 }
+#card-cat .card-item {
+    height: unset;
+}
+#card-cat .card-item img {
+    position: absolute;
+    z-index: -1;
+}
+#card-cat .card-item .categoria {
+    width: 100%;
+    opacity: 0.5;
+    background-color: #fff;
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0;
+    position: absolute;
+    top: 50%;
+}
 /*  CONTATO   */
 #contato {
     display: flex;
