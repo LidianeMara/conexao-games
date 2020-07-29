@@ -16,12 +16,36 @@ body {
 #myModal {
     display: none;
   }
+#myModal h5 {
+    font-size: 24px;
+}  
+#myModal p {
+    font-size: 22px;
+}  
+  #contact-form input {
+      width: 400px;
+      font-size: 17px;
+  }
+#myModal button {
+    font-size: 18px;
+    text-transform: uppercase;
+}  
+#myModal .btn-primary {
+    background-color: #28a745 !important;
+}
+#myModal .btn-primary:hover {
+    background-color: #1b5a2a !important;
+}
+
 .inicio {
     background-color: #454545;
 }
 .carousel-caption {
     left: 70% !important;
     bottom: 250px !important;
+}
+.carousel-caption {
+    width: 250px;
 }
 .carousel-caption h2 {
     font-size: 45px;
@@ -33,6 +57,31 @@ body {
 .carousel-caption a {
     font-size: 25px;
     text-transform: uppercase;
+}
+.section-title {
+    position: relative;
+    -js-display: flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+     -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    width: 100%;
+}
+.section-title b {
+    display: block;
+    -ms-flex: 1;
+    flex: 1;
+    height: 2px;
+    opacity: .1;
+    background-color: white;
+}
+.section-title .color {
+    background-color: black;
+}
+.section-title span {
+    margin: 0 15px;
 }
 /*  CONTATO   */
 #sobre {
@@ -110,39 +159,6 @@ h1.banner-title {
     top: 25vh;
     word-wrap: break-word;
     text-transform: uppercase;
-}
-
-/* Acessório nos titulos */
-.line {
-    position:relative;
-    text-align:center;
-    z-index: 5;
-}
-
-.line:after, .line:before{
-    content:"r";
-    width:50%;
-    height:2px;
-    background:#666;
-    position:absolute;
-    top:3vh;
-    color:#FFF;
-    text-align:center;
-    z-index: -1;
-    opacity: 26%;
-}
-
-.line:after {
-    right: 0;
-}
-
-.line:before {
-    left: 0;
-}
-
-.line span{
-    background: #fff;
-    padding: 0 10px;
 }
 
 /*Bandeirinhas*/
