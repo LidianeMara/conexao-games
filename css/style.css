@@ -84,6 +84,11 @@ body {
     margin: 0 15px;
 }
 /*  CONTATO   */
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #sobre {
     text-align: justify;
 }
