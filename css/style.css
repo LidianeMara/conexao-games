@@ -69,6 +69,13 @@ body {
     -ms-flex-pack: justify;
     width: 100%;
 }
+
+@media (max-width: 550px){
+    .section-title{
+        font-size: 25px;
+    }
+}
+
 .section-title b {
     display: block;
     -ms-flex: 1;
@@ -126,6 +133,11 @@ body {
 }
 #sobre p {
     width: 50%;
+}
+@media (max-width: 600px){
+    #sobre p{
+        width: 100%;
+    }
 }
 #equipe .social-link {
     width: 30px;
