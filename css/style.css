@@ -12,6 +12,8 @@ body {
 }
 .navbar .navbar-nav .nav-item .nav-link {
     font-size: 22px;
+    text-transform: uppercase;
+    color: #000;
 }
 #myModal {
     display: none;
@@ -112,6 +114,7 @@ body {
 }
 .btn-success {
     font-size: 24px;
+    text-transform: uppercase;
 }
 .fa-shopping-cart {
     font-size: 35px;
